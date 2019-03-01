@@ -26,6 +26,7 @@ $.ajax({
 						Subject: emSubject
 					}            
 				}
+				
 				var urlTemplate = _spPageContextInfo.webAbsoluteUrl + "/_api/SP.Utilities.Utility.SendEmail";
 				$.ajax({
 					contentType: 'application/json',
