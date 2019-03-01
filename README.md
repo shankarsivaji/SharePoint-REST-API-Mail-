@@ -1,3 +1,5 @@
+Below is the code for Sending custom mail to users.
+
 # SharePoint-REST-API-Mail-
 How to send mail using REST API in Sharepoint
 
