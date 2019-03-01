@@ -16,7 +16,6 @@ $.ajax({
 				var emSubject = "Welcome!";
 				var valMessage = "<div>Your Message</div>";
 				var emBody = valMessage;
-
 				var data = {
 					properties: {
 						__metadata: { 'type': 'SP.Utilities.EmailProperties' },
@@ -27,9 +26,7 @@ $.ajax({
 						Subject: emSubject
 					}            
 				}
-
 				var urlTemplate = _spPageContextInfo.webAbsoluteUrl + "/_api/SP.Utilities.Utility.SendEmail";
-
 				$.ajax({
 					contentType: 'application/json',
 					url: urlTemplate,
